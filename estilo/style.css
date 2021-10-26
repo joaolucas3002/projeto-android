@@ -17,7 +17,7 @@
 
     --fonte-padrao:arial, verdana,helvetica,sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
-    --fonte-android:'idroid', cursiva;
+    --fonte-android:'idroid', cursive;
 }
 *{
     margin: 0px;
@@ -49,13 +49,13 @@ header>h3{
 nav{
     text-align: left;
     }
-nav > a{
+nav  a{
     margin-right: 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-nav > a:hover{
+nav  a:hover{
     background-color: var(--cor4);
     outline: var(--cor4) solid 5px;
     border-radius: 1px;
