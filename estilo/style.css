@@ -48,8 +48,12 @@ header>h3{
 
 nav{
     text-align: left;
-    overflow-x: hidden
+
+    overflow:scroll;
     }
+nav::-webkit-scrollbar{ 
+    display: none; 
+}
 nav  a{
     margin-right: 15px;
     text-decoration: none;
