@@ -16,7 +16,7 @@
     --cor4:#006400;
 
     --fonte-padrao:arial, verdana,helvetica,sans-serif;
-    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-destaque:'Bebas Neue', arial;
     --fonte-android:'idroid', cursive;
 }
 *{
@@ -29,7 +29,7 @@ body{
     font-family: var(--fonte-padrao);
 }
 header{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', arial;
     padding: 15px 15px 5px 15px;
     text-align: center;
     background-image: linear-gradient( var(--cor0),var(--cor4));
