@@ -48,6 +48,7 @@ header>h3{
 
 nav{
     text-align: left;
+    overflow-x: hidden
     }
 nav  a{
     margin-right: 15px;
