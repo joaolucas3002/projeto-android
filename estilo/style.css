@@ -48,13 +48,9 @@ header>h3{
 
 nav{
     text-align: left;
-
-    overflow:scroll;
-    }
-nav::-webkit-scrollbar{ 
-    display: none; 
 }
 nav  a{
+    padding: 5px;
     margin-right: 15px;
     text-decoration: none;
     color: white;
@@ -62,10 +58,11 @@ nav  a{
 }
 nav  a:hover{
     background-color: var(--cor4);
-    outline: var(--cor4) solid 5px;
-    border-radius: 1px;
+    padding: 5px;
+    border-radius: 4px;
     text-decoration: underline;
 }
+
 
 main{
     background-color: white;
